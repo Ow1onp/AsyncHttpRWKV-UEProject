@@ -1,12 +1,15 @@
-# AsyncHttpRWKV
+# RWKV Plugin for UE Projects
 
-Welcome to the RWKV Plugin! This plugin is designed to make it easy to integrate complex Recurrent Neural Network (RNN) language models into your projects using HTTP communication. Our goal is to provide you with a simple and flexible way to harness the power of RNN models, whether you are developing games or creating interactive environments.
+Welcome to the RWKV Plugin! This plugin is designed to make it easy to integrate complex Recurrent Neural Network (RNN) language models into your projects using HTTP communication. Our goal is to provide you with a simple and flexible way to harness the power of RNN models, whether you are developing games or creating interactive environments. 
+
+![Top Image](cfa27b05fbbe042d762a5b8fb88d302d0bb3f964a59b874308fd3a04882f16f7.png)
 
 ## Features
 
 - **Model Switching**: Easily switch between different models based on your configuration.
 - **Precision Selection**: Choose the precision level that suits your needs.
 - **Memory Layer Loading**: Adjust the memory layers to balance between inference speed and GPU load.
+- **Privacy and Security**: The preset server is completely free and operates locally without needing an internet connection. Both the plugin and server do not collect user information, ensuring the privacy and security of user data.
 
 ## Basic Connection
 
@@ -27,7 +30,7 @@ This module provides interfaces for RWKV settings, OnSucceeded, and OnStream.
 
 Both interfaces can be used simultaneously. For example, you can use streaming to break sentences, then verify the sentences' correctness and determine if sentence breaking should stop using the full sentence returned by OnSucceeded.
 
-## Requirements
+## System Requirements
 
 - **GPU Memory**: A GPU with at least 12GB of memory is recommended for deploying this plugin, as GPU memory is essential for model inference. Alternatively, you can use a CPU to optimize UE projects and reduce costs.
 
@@ -40,7 +43,9 @@ Both interfaces can be used simultaneously. For example, you can use streaming t
 
 ## Usage
 
-1. **Switch Model**: Use this interface to switch models as needed.
+![Usage Image](9e787b67aaa62c8d867f45ebb0e34814012925496b16d3777af6445b36eede7f.png)
+
+1. **Model Switching**: Use this interface to switch models as needed.
 2. **Configure RWKV**: Set up the parameters using RWKVSetting.
 3. **Receive Messages**: Use OnSucceeded and OnStream to receive messages from RWKV.
 4. **Optimize Performance**: Adjust memory layers to balance performance and GPU load.
@@ -50,8 +55,28 @@ Both interfaces can be used simultaneously. For example, you can use streaming t
 - **GPU with 12GB+ memory**: Recommended for optimal performance.
 - **Memory Layer Adjustment**: Keep within reasonable limits to avoid overloading the GPU.
 
+## Important Directory Structure
+
+Your project should maintain the following directory structure:
+
+YourProject
+|—Binaries
+|—Config
+|—.......（other files）
+|—RMKV_Server
+|—YourProject.uproject
+
+
+## Downloads
+
+- Complete AsyncHttpRWKV example Unreal Engine project: [Download Link](https://drive.google.com/file/d/1MUSA-_o8SSY5rA9uiqadM0AceKA3AMDn/view?usp=sharing)
+- Preset RWKV Server: [Download Link](https://drive.google.com/file/d/1n8aYMsUmurpJLyNa9cv_RNVJK6HeF8rx/view?usp=sharing)
+
 By following this guide, you can efficiently integrate and use RNN language models in your projects. Enjoy the power of RWKV!
+
+For more details and support, please refer to our documentation or contact our support team.
 
 ---
 
 Thank you for choosing the RWKV Plugin for your UE projects!
+
