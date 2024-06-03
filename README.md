@@ -61,10 +61,15 @@ Both interfaces can be used simultaneously. For example, you can use streaming t
 Your project should maintain the following directory structure:
 
 YourProject
+
 |—Binaries
+
 |—Config
+
 |—.......（other files）
+
 |—RMKV_Server
+
 |—YourProject.uproject
 
 
