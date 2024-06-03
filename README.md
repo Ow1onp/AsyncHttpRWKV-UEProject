@@ -1,4 +1,4 @@
-# RWKV Plugin for UE Projects
+# AsyncHttpRWKV
 
 Welcome to the RWKV Plugin! This plugin is designed to make it easy to integrate complex Recurrent Neural Network (RNN) language models into your projects using HTTP communication. Our goal is to provide you with a simple and flexible way to harness the power of RNN models, whether you are developing games or creating interactive environments.
 
