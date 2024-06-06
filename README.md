@@ -82,13 +82,13 @@ YourProject
 
 |—YourProject
 
-| |—Binaries
+|— — —|—Binaries
 
-| |—Content
+|— — —|—Content
 
-| |—RMKV_Server
+|— — —|—RMKV_Server
 
-| |—Saved
+|— — —|—Saved
 
 To change or add a model, you need to add or delete it in the models folder under the RMKV_Server folder. This is a series of operations you need.
 
