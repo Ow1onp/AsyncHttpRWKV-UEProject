@@ -61,36 +61,51 @@ Both interfaces can be used simultaneously. For example, you can use streaming t
 Your project should maintain the following directory structure:
 
 YourProject
-
-|—Binaries
-
-|—Config
-
-|—.......（other files）
-
-|—RMKV_Server
-
-|—YourProject.uproject
+│
+├── Binaries
+├── Config
+├── RMKV_Server
+│   ├── models
+│   ├── py310
+│   ├── backend-python
+│   │   └── main.py
+│   ├── ... (other files and folders)
+├── YourProject.uproject
+├── ... (other files and folders)
 
 After backing up, your project structure should look like this:
 
+YourProject_Backup
+│
+├── ... (other files and folders)
+├── YourProject.exe
+├── YourProject
+│   ├── Binaries
+│   ├── Content
+│   ├── RMKV_Server
+│   │   ├── models
+│   │   ├── py310
+│   │   ├── backend-python
+│   │   │   └── main.py
+│   │   ├── ... (other files and folders)
+│   ├── Saved
+│   ├── ... (other files and folders)
+
+To change or add a model, you need to add or delete it in the models folder under the RMKV_Server directory:
+
 YourProject
-
-|—.......（other files）
-
-|—YourProject.exe
-
-|—YourProject
-
-|———|—Binaries
-
-|———|—Content
-
-|———|—RMKV_Server
-
-|———|—Saved
-
-To change or add a model, you need to add or delete it in the models folder under the RMKV_Server folder. This is a series of operations you need.
+│
+├── RMKV_Server
+│   ├── models
+│   │   ├── model1
+│   │   ├── model2
+│   │   └── ... (other models)
+│   ├── py310
+│   ├── backend-python
+│   │   └── main.py
+│   ├── ... (other files and folders)
+├── YourProject.uproject
+├── ... (other files and folders)
 
 ## Downloads
 
