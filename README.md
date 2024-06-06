@@ -72,6 +72,25 @@ YourProject
 
 |—YourProject.uproject
 
+After backing up, your project structure should look like this:
+
+YourProject
+
+|—.......（other files）
+
+|—YourProject.exe
+
+|—YourProject
+
+| |—Binaries
+
+| |—Content
+
+| |—RMKV_Server
+
+| |—Saved
+
+To change or add a model, you need to add or delete it in the models folder under the RMKV_Server folder. This is a series of operations you need.
 
 ## Downloads
 
