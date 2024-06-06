@@ -81,6 +81,7 @@ YourProject
 |—YourProject.exe
 
 |—YourProject
+
 |———|—Binaries
 
 |———|—Content
