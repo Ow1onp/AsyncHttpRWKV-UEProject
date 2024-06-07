@@ -58,7 +58,7 @@ Both interfaces can be used simultaneously. For example, you can use streaming t
 
 ## Important Directory Structure
 
-**Your project should maintain the following directory structure:
+Your project should maintain the following directory structure:
 
 YourProject
 │
@@ -82,7 +82,7 @@ YourProject
 
 ├── ... (other files and folders)
 
-**After backing up, your project structure should look like this:
+After backing up, your project structure should look like this:
 
 YourProject_Backup
 
@@ -106,7 +106,7 @@ YourProject_Backup
 
 │   ├── ... (other files and folders)
 
-**To change or add a model, you need to add or delete it in the models folder under the RMKV_Server directory:
+To change or add a model, you need to add or delete it in the models folder under the RMKV_Server directory:
 
 YourProject
 
