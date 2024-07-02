@@ -44,7 +44,7 @@ Both interfaces can be used simultaneously. For example, you can use streaming t
 
 ## Usage
 
-![Usage Image](1.png)
+![Usage Image](3.png)
 
 1. **Model Switching**: Use this interface to switch models as needed.
 2. **Configure RWKV**: Set up the parameters using RWKVSetting.
