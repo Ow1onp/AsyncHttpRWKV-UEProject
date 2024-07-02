@@ -138,6 +138,7 @@ YourProject
 
 - Complete AsyncHttpRWKV example Unreal Engine project: [Download Link](https://drive.google.com/file/d/1VDteIBL3L_fvM2JjD6XYM2M7HT-2-Par/view?usp=sharing)
 - Preset RWKV Server: [Download Link](https://drive.google.com/file/d/1n8aYMsUmurpJLyNa9cv_RNVJK6HeF8rx/view?usp=sharing)
+- Unreal Mall purchase address：[Purchase Link](https://www.unrealengine.com/marketplace/zh-CN/product/asynchttprwkv)
 
 By following this guide, you can efficiently integrate and use RNN language models in your projects. Enjoy the power of RWKV!
 
