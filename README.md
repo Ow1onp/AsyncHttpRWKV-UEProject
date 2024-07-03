@@ -144,6 +144,11 @@ By following this guide, you can efficiently integrate and use RNN language mode
 
 For more details and support, please refer to our documentation or contact our support team.
 
+## The projects referenced by this project are as follows:
+
+RWKV-Running：https://github.com/josStorer/RWKV-Runner
+RWKV-LM:https://github.com/BlinkDL/RWKV-LM
+
 ---
 
 Thank you for choosing the RWKV Plugin for your UE projects!
